@@ -3,23 +3,18 @@ Coding Assessment
 
 Statement: API checks if a given string contains all the letters of the English alphabet, regardless of
 the case.
- 
-Endpoint: POST /check-alphabet/
-Input: A JSON object containing a string
-Output: A JSON object with a boolean field
- 
-Code Strucuture:
+a. Endpoint: POST /check-alphabet/
+b. Input: A JSON object containing a string
+c. Output: A JSON object with a boolean field 
+d. Code Strucuture:
 alphabet-checker/
-main.py
-test_main.py
-requirement.txt
-README.md
- 
-main.py file contains the FastAPI application and the endpoint /check-alphabet/. The check_alphabet function validates the imput and checks whether all the letters of the alphabet are present.
- 
-test_main.py contains test cases to validate the functionality of API.
- 
-requirements.txt contains a list of python dependencies required to run the application.
+   main.py
+   test_main.py
+   requirement.txt
+   README.md
+e. main.py file contains the FastAPI application and the endpoint /check-alphabet/. The check_alphabet function validates the imput and checks whether all the letters of the alphabet are present. 
+f. test_main.py contains test cases to validate the functionality of API. 
+g.requirements.txt contains a list of python dependencies required to run the application.
  
 Steps to Install Dependencies and Run the Application
 1. Install Python: "python --version"
