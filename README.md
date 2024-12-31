@@ -1,11 +1,10 @@
 # alphabet-checker
 
 
-Coding Assessment
+## Coding Assessment
 
 
-Statement: API checks if a given string contains all the letters of the English alphabet, regardless of
-the case.
+### Statement: API checks if a given string contains all the letters of the English alphabet, regardless of the case.
 a. Endpoint: POST /check-alphabet/
 b. Input: A JSON object containing a string
 c. Output: A JSON object with a boolean field 
