@@ -18,7 +18,7 @@ e. main.py file contains the FastAPI application and the endpoint /check-alphabe
 f. test_main.py contains test cases to validate the functionality of API. 
 g.requirements.txt contains a list of python dependencies required to run the application.
  
-Steps to Install Dependencies and Run the Application
+#### Steps to Install Dependencies and Run the Application
 1. Install Python: "python --version"
 2. Install Dependencies: Create a virtual environment to isolate project dependencies "python -m venv venv"
 3. Activate the virtual environment: "venv\Scripts\activate"
@@ -26,7 +26,7 @@ Steps to Install Dependencies and Run the Application
 5. Run the application: "uvicorn main:app --reload", this will start the server on http://127.0.0.1.8000 by default. You can access swagger documentation at http://127.0.0.1.8000/docs.
 6. Test the application: "pytest"
  
-Deployment in AWS
+### Deployment in AWS
 To deploy the FastAPI application with AWS.
  
 Elastic Beanstalk: It simplifies the deployment and management. Supports Python-based applications and integrates seamlessly with FastAPI.
