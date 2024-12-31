@@ -7,10 +7,10 @@
 3. Output: A JSON object with a boolean field 
 4. Code Strucuture:
 alphabet-checker/
-   main.py
-   test_main.py
-   requirement.txt
-   README.md
+   1. main.py
+   2. test_main.py
+   3. requirement.txt
+   4. README.md
 5. main.py file contains the FastAPI application and the endpoint /check-alphabet/. The check_alphabet function validates the imput and checks whether all the letters of the alphabet are present. 
 6. test_main.py contains test cases to validate the functionality of API. 
 7.requirements.txt contains a list of python dependencies required to run the application.
