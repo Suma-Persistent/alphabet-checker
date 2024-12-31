@@ -28,30 +28,30 @@ alphabet-checker/
 #### Elastic Beanstalk: It simplifies the deployment and management. Supports Python-based applications and integrates seamlessly with FastAPI.
 #### AWS CloudWatch: To monitor application logs, track metrics, and set alarms for resource utilization or application performance.
 #### IAM: To manage permissions for Elastic Beanstalk. 
-##### 1. Project Structure:
-####### 1. app/
-######## _init_.py
-######## main.py
-######## requirements.txt
-####### .ebextensions/
-######## python.config
-####### README.md
-####### tests/
-   ######## test_main.py
-####### runtime.txt
-##### Create a requirements.txt file:
+1. Project Structure:
+ 1. app/
+     _init_.py
+     main.py
+     requirements.txt
+ 2. .ebextensions/
+     python.config
+ 3. README.md
+ 4. tests/
+    test_main.py
+ 5. runtime.txt
+2. Create a requirements.txt file:
 List all dependencies -
 fastapi
 uvicorn
 pytest
 httpx
-##### Install the Elstic Beanstalk CLI and initialize "eb init" by navigating to the root of the project directory.
+3. Install the Elstic Beanstalk CLI and initialize "eb init" by navigating to the root of the project directory.
 Choose the AWS Region
 Select Python as platform
 Use default Elastic Beanstalk aaplication name or specify.
-##### Create an Environment, "eb create <environment-name>". This will automatically deploy the application.
+4. Create an Environment, "eb create <environment-name>". This will automatically deploy the application.
 This sets up -
 An EC2 instance for hosting the application.
-##### Deploy the code to Environment, "eb deploy". 
-##### Test the Deployment
+5. Deploy the code to Environment, "eb deploy". 
+6. Test the Deployment
 Visit the application URL provided by Elastic Beanstalk and use tools like Postman to test the API endpoints.
