@@ -27,11 +27,11 @@ g.requirements.txt contains a list of python dependencies required to run the ap
 6. Test the application: "pytest"
  
 ### Deployment in AWS
-To deploy the FastAPI application with AWS.
+#### To deploy the FastAPI application with AWS.
  
-Elastic Beanstalk: It simplifies the deployment and management. Supports Python-based applications and integrates seamlessly with FastAPI.
-AWS CloudWatch: To monitor application logs, track metrics, and set alarms for resource utilization or application performance.
-IAM: To manage permissions for Elastic Beanstalk.
+#### Elastic Beanstalk: It simplifies the deployment and management. Supports Python-based applications and integrates seamlessly with FastAPI.
+#### AWS CloudWatch: To monitor application logs, track metrics, and set alarms for resource utilization or application performance.
+#### IAM: To manage permissions for Elastic Beanstalk.
  
 1. Project Structure:
 app/
