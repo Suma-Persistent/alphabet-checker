@@ -29,16 +29,16 @@ alphabet-checker/
 #### AWS CloudWatch: To monitor application logs, track metrics, and set alarms for resource utilization or application performance.
 #### IAM: To manage permissions for Elastic Beanstalk. 
 1. Project Structure:
-app/
-   _init_.py
-   main.py
-   requirements.txt
-.ebextensions/
-   python.config
-README.md
-tests/
-   test_main.py
-runtime.txt
+i. app/
+   i. _init_.py
+   ii. main.py
+   iii. requirements.txt
+ii. .ebextensions/
+   i. python.config
+iii. README.md
+iv. tests/
+   i. test_main.py
+v. runtime.txt
 2. Create a requirements.txt file:
 List all dependencies -
 fastapi
